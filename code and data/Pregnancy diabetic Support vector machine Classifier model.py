@@ -10,7 +10,7 @@ import numpy as np
 from scipy.stats import norm
 # dataset import
 
-diabdata = pd.read_csv("K:\\FITA class docs\\AIML\\My_Datasets\\Pima Indians Diabetes Database\\diabetes.csv")
+diabdata = pd.read_csv("code and dataset/diabetes.csv")
 
 # data inspection and transformation
 stat = diabdata.describe()
@@ -221,4 +221,5 @@ else:
 #[1] https://medium.com/data-science/pima-indian-diabetes-prediction-7573698bd5fe\n
 #[2] https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database\n
 '''
+
 
